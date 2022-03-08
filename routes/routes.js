@@ -15,7 +15,6 @@ route.get("/authors", function (request, response) {
 })
 
 
-
 route.post("/authors", function (request, response) {
     var author = {
         author_id: request.body.author_id,
